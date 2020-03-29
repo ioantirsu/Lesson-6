@@ -1,0 +1,106 @@
+
+header {
+    position: fixed;
+    top: 0;
+   width: 100%;
+    border: 3px solid #b70f0a;
+    background-color: #ff8351;
+    margin-top: 5px;
+   } 
+   
+   #hero-block {
+    border: 3px solid #355723;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top:80px;
+    background-image: url(showcase.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   }
+
+.form {
+    border: 3px solid blue;
+    background-color: white;
+     position: absolute;
+    right: 20px;
+    top: 25px;
+    text-align:center;
+   }
+
+   ul li input {
+    margin-right: 30px;
+}
+
+   li{ 
+       list-style: none;
+        padding: 10px;
+    }
+   
+     #main {
+    border: 3px solid #0844a4;
+    background-color: #c9f1fd;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    text-align: center;
+   }
+      
+
+   article {
+    
+    text-align: left;
+    border: 3px solid #9c29b7;
+    background-color: #9c29b7;
+    height: 250px;
+ }
+
+ .float{
+    float: right;
+    margin: 10px;
+
+}
+ .image1 {
+ 
+    height: 100px;
+    float: inherit;
+   }
+
+   .float2 {
+       float: left;
+       margin: 10px;
+   }
+
+   footer {
+    border: 3px solid #553d0d;
+    background-color: #ffc957;
+    width: 100%;
+    height:60px;
+   }
+   footer {position: fixed;
+    bottom: 0;
+    text-align: center;
+   }
+  
+.button {   border:1px solid black;
+     border-radius: 3px;
+    width: 175px;
+    margin-top: 10px;
+    margin-right: 33px;
+}
+
+.button {
+    background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.box {
+    float: left;
+    width: 40%;
+    padding: 50px;   
+   margin-left: 5%;
+   margin-right: 5%;
+   box-sizing: border-box;
+
+}
